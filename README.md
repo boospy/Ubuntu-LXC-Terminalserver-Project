@@ -17,7 +17,7 @@
 - ZSH Defaultshell
 - and a lot of other nice things ;)
 
-<img src="https://git.osit.cc/public-projects/ubuntu-lxc-terminalserver-project/-/raw/main/screenshots/3.jpeg" width="" height="256">
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/3.jpeg" width="" height="256">
 
 
 ## Software
@@ -39,7 +39,7 @@
 - Strawberry Musicplayer
 
 
-<img src="https://git.osit.cc/public-projects/ubuntu-lxc-terminalserver-project/-/raw/main/screenshots/2.jpeg" width="" height="256">
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/2.jpeg" width="" height="256">
 
 ## Enabled Repositories
 - Brave Browser
@@ -48,7 +48,7 @@
 - ITEAS Enterpriserepo https://apt.iteas.at/
 
 
-<img src="https://git.osit.cc/public-projects/ubuntu-lxc-terminalserver-project/-/raw/main/screenshots/5.jpeg" width="" height="256">
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/5.jpeg" width="" height="256">
 
 ### Minimal system requirements 
 - Proxmox 8 or other LXC hostsystem
@@ -91,7 +91,7 @@ Automatic Updates are configured to run in background every 7 days. Autoreboot (
 /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 
-<img src="https://git.osit.cc/public-projects/ubuntu-lxc-terminalserver-project/-/raw/main/screenshots/22.png" width="" height="256">
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/22.png" width="" height="256">
 
 ## Helpfull Links for special configuration
 - [Extended Domain Services Univention for LXC or other systems without network-manager](https://docs.software-univention.de/ext-domain/5.0/en/index.html)
