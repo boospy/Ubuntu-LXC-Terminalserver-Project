@@ -58,6 +58,10 @@
 - unprivileged container: "no"
 - features: fuse=1
 
+## Download
+You can download the image from here:
+https://sourceforge.net/projects/ubuntu-business-desktop-lxc/files/stable/UBD-22.04-Ubuntu-LXC-Terminalserver-Project_22.04-3_amd64.tar.gz
+
 # First start
 
 If you create the LXC, unprivileged must be deactivated.
