@@ -1,0 +1,20 @@
+Update 22.04-3
+
+- Bugfixes
+- Upgrade the system and all the software to Ubuntu 22.04-3
+- testet on Proxmox 8
+- Update Documtentation
+- add Bitwarden
+- add Brave Browser
+- add /etc/skle (predefined config files for new users)
+- add public samba share
+- remove apt-deb-proxy client (multicast)
+
+Update 20.04-6
+
+- Bugfixes
+- Update the system and all the software
+- remove Hamsket
+- testet on Proxmox 8
+- Update Documtentation
+
