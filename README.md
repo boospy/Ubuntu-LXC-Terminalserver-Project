@@ -6,6 +6,8 @@
 
 # Ubuntu-LXC-Terminalserver-Project
 
+Herewith I provide a lightweight graphical LXC (container) with LXQD desktop as terminal server (x2go). Ready server within a few minutes. Have fun with it :)
+
 ## Features
 
 - LXQT with Terminalserver
