@@ -62,7 +62,7 @@ Herewith I provide a lightweight graphical LXC (container) with LXQD desktop as 
 
 ## Download
 You can download the image from here:
-https://sourceforge.net/projects/ubuntu-business-desktop-lxc/files/stable/UBD-22.04-Ubuntu-LXC-Terminalserver-Project_22.04-3_amd64.tar.gz
+https://sourceforge.net/projects/ubuntu-business-desktop-lxc/files/stable/
 
 # First start
 
@@ -75,7 +75,14 @@ After fist start you can login directly in the console or with ssh with root and
 - Resolution	1920x1080
 - Set resolution (DPI)	79 -> only Ubuntu 20.04
 
-The default language at the desktop is english. But yes, I'am a german speaker, so change of the language in Ubuntu is easy.
+The default language at the desktop is german, but you can very simple change this after login by open the regional settings:
+
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/change-lang01.png" width="" height="256">
+
+and change to your prefer language. This will be applied to the desktop the next time you log in.
+
+<img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/change-lang02.png" width="" height="256">
+
 
 ## Other settings:
 You can change apt-cacher in
