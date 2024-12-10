@@ -1,9 +1,10 @@
-Update 22.04-4
+Update 22.04.5
 
-- Bugfixes
-- changed to english as default language
+- Upgrade the system and all the software to Ubuntu 22.04.5
+- Bugfix README for the x2go client configuration
+- Change container format to tar.zst
 
-Update 22.04-3
+Update 22.04.3
 
 - Bugfixes
 - Upgrade the system and all the software to Ubuntu 22.04-3
@@ -15,11 +16,10 @@ Update 22.04-3
 - add public samba share
 - remove apt-deb-proxy client (multicast)
 
-Update 20.04-6
+Update 20.04.6
 
 - Bugfixes
 - Update the system and all the software
 - remove Hamsket
 - testet on Proxmox 8
 - Update Documtentation
-

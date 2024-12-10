@@ -73,6 +73,7 @@ After fist start you can login directly in the console or with ssh with root and
 - Session Type	LXQT
 - Connection speed	recommended LAN for best quality
 - Resolution	1920x1080
+- Disable checkbox on "Use port forwarding over tunneling to connect audio signals across firewalls". Activating the checkbox can cause a hanging and incorrectly loading desktop environment.
 - Set resolution (DPI)	79 -> only Ubuntu 20.04
 
 The default language at the desktop is german, but you can very simple change this after login by open the regional settings:
