@@ -1,3 +1,11 @@
+Update 24.04.4
+
+- Upgrade the system and all the software to Ubuntu 24.04.4
+- Add flathub repository for flatpak installations
+- Remove tinyOTP and VNCviewer + other unnecessary system software
+- Add Brave Browser with [Privacy-Browser-Project](https://codeberg.org/boospy/Privacy-Browser-Project)
+- A few minor adjustments for Proxmox VE 9.2
+
 Update 22.04.5
 
 - Upgrade the system and all the software to Ubuntu 22.04.5

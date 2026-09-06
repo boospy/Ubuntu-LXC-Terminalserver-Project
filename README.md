@@ -11,8 +11,8 @@ Herewith I provide a lightweight graphical LXC (container) with LXQD desktop as 
 ## Features
 
 - LXQT with Terminalserver
-- No Snap packages, everthing DEB's
-- LXC Compatible with Proxmox (tested on version 7/8)
+- No Snap packages, everthing DEB's and yes... one flat ;)
+- LXC Compatible with Proxmox (tested on version 9)
 - Autoupdate and Reboot for the System (unattended-upgrades)
 - Webmin: Adminstration over web on https://hostname:10000
 - Samba Integration (Publicshare) configurable with Webmin
@@ -33,12 +33,11 @@ Herewith I provide a lightweight graphical LXC (container) with LXQD desktop as 
 - Nextcloud Desktop
 - OpenFortiGUI (VPN Client)
 - MasterPDF Editor
-- Draw.IO
-- Brave Browser
-- Firefox with Secureplugins
+- Brave Browser (from the [Privacy-Browser-Project](https://codeberg.org/boospy/Privacy-Browser-Project))
+- Firefox
 - Teamviewer
-- Real VNCviewer
 - Strawberry Musicplayer
+- Draw.IO (Flatpak)
 
 
 <img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/2.jpeg" width="" height="256">
@@ -47,18 +46,20 @@ Herewith I provide a lightweight graphical LXC (container) with LXQD desktop as 
 - Brave Browser
 - Teamviewer
 - Mozillateam Ubuntu
-- ITEAS Enterpriserepo https://apt.iteas.at/
+- ITEAS Communityrepo https://apt.iteas.at/
+- Webmin
+- Flathub for flatpak installations
 
 
 <img src="https://raw.githubusercontent.com/boospy/Ubuntu-LXC-Terminalserver-Project/main/screenshots/5.jpeg" width="" height="256">
 
 ### Minimal system requirements 
-- Proxmox 8 or other LXC hostsystem
+- Proxmox 9 or other LXC hostsystem
 - 4 Cores
 - 4GB Memory
 - 15GB diskspace
 - unprivileged container: "no"
-- features: fuse=1
+- features: fuse=1, nesting=1
 
 ## Download
 You can download the image from here:
@@ -86,7 +87,7 @@ and change to your prefer language. This will be applied to the desktop the next
 
 
 ## Other settings:
-You can change apt-cacher in
+You can change apt-cacher at
 
 ```
 /etc/apt/apt.conf.d/01proxy
